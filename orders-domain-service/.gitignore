@@ -1,0 +1,12 @@
+*.js
+!jest.config.js
+!jest.config.int.js
+!jest.config.e2e.js
+!jest.config.integration.js
+!jest.config.infra.js
+*.d.ts
+node_modules
+
+# CDK asset staging directory
+.cdk.staging
+cdk.out

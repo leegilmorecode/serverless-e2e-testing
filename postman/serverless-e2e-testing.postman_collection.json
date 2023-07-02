@@ -1,0 +1,39 @@
+{
+  "info": {
+    "_postman_id": "2f06f8e6-529d-4469-bd27-ce2b151db135",
+    "name": "serverless-e2e-testing",
+    "schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+    "_exporter_id": "752706"
+  },
+  "item": [
+    {
+      "name": "Create Order",
+      "request": {
+        "method": "POST",
+        "header": [],
+        "body": {
+          "mode": "raw",
+          "raw": "{\n    \"quantity\": 112,\n    \"price\": 1.20,\n    \"productId\": \"PROD-111\"\n}",
+          "options": {
+            "raw": {
+              "language": "json"
+            }
+          }
+        },
+        "url": {
+          "raw": "https://your-rest-api-id.execute-api.your-region.amazonaws.com/api/v1/orders/",
+          "protocol": "https",
+          "host": [
+            "your-rest-api-id",
+            "execute-api",
+            "your-region",
+            "amazonaws",
+            "com"
+          ],
+          "path": ["api", "v1", "orders", ""]
+        }
+      },
+      "response": []
+    }
+  ]
+}

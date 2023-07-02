@@ -1,0 +1,15 @@
+{
+  "version": "0",
+  "id": "0ecf977d-b4b0-df87-49ef-6a7752f9193a",
+  "detail-type": "3rdPartyOrderRaised",
+  "source": "com.shared.bus",
+  "account": "123456789123",
+  "time": "2023-06-30T11:42:17Z",
+  "region": "eu-west-1",
+  "resources": [],
+  "detail": {
+    "quantity": 112,
+    "price": 1.2,
+    "productId": "LEE_TEST"
+  }
+}
